@@ -108,6 +108,9 @@ body {
   .input-add-on-field {
     flex: 1;
   }
+  .input-add-on-field, .input-add-on-item {
+    font-size: 10px;
+  }
   .input-add-on-item {
     /* item styles */
   }

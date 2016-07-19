@@ -89,6 +89,8 @@ body {
   flex-wrap: wrap; }
   .search .input-add-on-field {
     flex: 1; }
+  .search .input-add-on-field, .search .input-add-on-item {
+    font-size: 10px; }
   .search .input-add-on-item {
     /* item styles */ }
 
