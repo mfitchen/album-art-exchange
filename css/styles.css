@@ -1,3 +1,108 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: Verdana, Arial, Helvetica, Sans-serif;
+  font-size: 12px; }
 
+.body {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 830px;
+  margin: 0 auto; }
+
+.logo, .advertisement, .footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center; }
+
+.content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 0 0; }
+
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  width: 480px;
+  align-content: flex-start; }
+  .container a img {
+    width: 150px;
+    height: 150px;
+    margin: 5px; }
+
+.sidebar-left, .sidebar-right {
+  width: 150px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-direction: column; }
+  .sidebar-left a, .sidebar-right a {
+    font-family: 'Tulpen One', cursive;
+    font-size: 72px;
+    text-decoration: none;
+    color: #ffffff; }
+    .sidebar-left a:hover, .sidebar-right a:hover {
+      color: red; }
+
+.sidebar-left {
+  justify-content: center;
+  align-items: flex-end;
+  margin-right: 10px; }
+  .sidebar-left a {
+    margin: 0;
+    padding: 0; }
+
+.sidebar-right {
+  order: 1;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: 10px; }
+  .sidebar-right a {
+    margin: 0;
+    padding: 0; }
+
+.available {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center; }
+  .available p {
+    color: #2d7cfd; }
+
+.search {
+  display: flex;
+  flex-wrap: wrap; }
+  .search .input-add-on-field {
+    flex: 1; }
+  .search .input-add-on-item {
+    /* item styles */ }
+
+.footer {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 830px;
+  margin: 50px 0 0 0; }
+  .footer img {
+    width: 150px;
+    margin: 0 5px; }
 
 /*# sourceMappingURL=styles.css.map */
